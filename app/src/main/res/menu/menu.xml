@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delete"
+        app:showAsAction="always"
+        android:icon="@drawable/delete2"
+        android:title="Delete"
+        android:iconTint="@color/white">
+    </item>
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always"
+        android:iconTint="@color/white"
+        app:actionViewClass="android.widget.SearchView" />
+
+</menu>

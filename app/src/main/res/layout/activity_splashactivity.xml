@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FEFDF8"
+    tools:context=".Splashactivity">
+    <ImageView
+        android:id="@+id/NotesIconSplash"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/notesicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/NotesTitle_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notes_app"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginStart="150dp"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/Subtitle_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take_your_notes_coz_n_life_is_short"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="120dp"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

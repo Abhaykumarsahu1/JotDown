@@ -1,5 +1,6 @@
 # JotDown - Note-Taking Android App
 #MASTER BRANCH FOR SOURCE CODE
+
 JotDown is a simple and intuitive Android app built using Kotlin and Android Studio. It allows users to effortlessly create, manage, and organize their notes while providing the convenience of setting reminders for important tasks.
 
 ## Features
